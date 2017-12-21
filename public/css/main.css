@@ -1,0 +1,163 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.jumbotron{
+background-image: url("../image/homepage_banner.jpg");
+color: black;
+margin-bottom: 0px;
+height: 350px;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+};
+
+.prodheading{
+    text-align:center;
+}
+
+.firstheading{
+    text-align: center;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+    display: none;
+    }
+    }
+}
+
+ #owl-demo .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#hotselling{
+    background-color:#F08080;
+}
+
+.menuback{
+    background-color:#e6e6e6;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:  #f1f1f1;
+    width: 1180px;
+    height: 340px;
+}
+
+
+.flex-container>div:nth-of-type(1)  {
+    background-color: #f1f1f1;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 2;
+}
+
+.flex-container>div{
+    background-color: #f1f1f1;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 1;
+}
+
+div.ex2 {
+    width:1000px;
+    height:250px;
+    margin: auto;
+}
+
+.list-group.panel > .list-group-item {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.promo-area {
+    background:#fbfbfb;
+    color: #fff;
+    padding: 40px 0 40px;
+  }
+  
+  .brands-area {
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    color: #fff;
+    padding: 20px 0 20px;
+  }
+  
+  .promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #f4f4f4}
+  .single-promo {
+      font-size: 25px;
+      font-weight: 200;
+      padding: 20px 10px;
+      text-align: center;
+  }
+  .single-promo i {
+    font-size: 50px;
+  }
+  
+  .single-promo:hover {color: #fff;}
+  .promo1 { background:#5a88ca;}
+  .promo2 { background:#ffd900;}
+  .promo3 { background:#fa8072;}
+  .promo4 { background:#4abebd;}
+  .section-title {
+    font-family: "Raleway",sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  /*profile pic with rounded images*/
+  .img-circle{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+  }
+
+  /*item count on display pages*/
+  .item-count{
+    padding-left:4px;
+    padding-right:4px;
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc;
+  }
+
+  .sub-itemcount{
+    padding-right: 22px;
+    border-right: 1px solid #ccc;
+  }
+
+  
